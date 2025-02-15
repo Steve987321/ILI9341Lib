@@ -30,9 +30,3 @@ Ik heb gebruik gemaakt van de volgende bronnen:
 
 - [Arduino forums](https://forum.arduino.cc/) voor vragen gerelateerd met de Arduino Uno.
 
-## Extra info
-Gemaakt voor een school opdracht. 
-
-Stefan Budding. 
-
-Laatst bijgewerkt op 29 mei 2024.

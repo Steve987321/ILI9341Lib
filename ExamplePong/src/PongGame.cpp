@@ -33,7 +33,7 @@ void PongGame::UpdateScore()
     itoa(paddleleft.score, left_score_buffer, 10);
     itoa(paddleright.score, right_score_buffer, 10);
     
-    screen.PushRotation(ILI9341::ROTATION_FLAGS::YMIRRORED);
+    screen.SetRotation(ILI9341::ROTATION_FLAGS::YMIRRORED);
 
     // clear first 
     screen.DrawRect(ILI9341::display_width - 15, 100, game_bg_col, ILI9341::display_width - 5, 240);  
@@ -42,7 +42,7 @@ void PongGame::UpdateScore()
     screen.DrawString(100, 6, left_score_buffer, strlen(left_score_buffer), text_col, 1.2f); 
     screen.DrawString(220, 6, right_score_buffer, strlen(right_score_buffer), text_col, 1.2f); 
     
-    screen.PopRotation();
+    screen.ResetRotation();
 }
 
 void PongGame::CheckCollision()

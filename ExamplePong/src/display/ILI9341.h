@@ -114,13 +114,13 @@ public:
 
     /// @brief 
     /// Sets custom screen coordinates.
-    /// @param rotation Rotation flags used, reset by using PopRotation
-    /// @see PopRotation()
-    void PushRotation(ROTATION_FLAGS rot);
+    /// @param rotation Rotation flags used, reset by using ResetRotation
+    /// @see ResetRotation()
+    void SetRotation(ROTATION_FLAGS rot);
 
     /// @brief 
     /// Sets screen coordinates to default. 
-    void PopRotation();
+    void ResetRotation();
 
     /// @brief 
     /// Sets new starting settings for the ILI9341, this should only be called before Init().
@@ -144,8 +144,8 @@ private:
 
     /// @brief Used by DrawPixel() to set direction.
     /// @see DrawPixel()
-    /// @see PushRotation()
-    /// @see PopRotation()
+    /// @see SetRotation()
+    /// @see ResetRotation()
     ROTATION_FLAGS rotation = ROTATION_FLAGS::NONE;
 
     /// @brief Starting settings used in Init();

@@ -103,12 +103,12 @@ void ILI9341::DrawRect(uint8_t x, uint16_t y, COLOR16 color, uint8_t sizex, uint
     }
 }
 
-void ILI9341::PushRotation(ROTATION_FLAGS rot)
+void ILI9341::SetRotation(ROTATION_FLAGS rot)
 {
     rotation = rot;
 }
 
-void ILI9341::PopRotation()
+void ILI9341::ResetRotation()
 {
     rotation = ROTATION_FLAGS::NONE;
 }
