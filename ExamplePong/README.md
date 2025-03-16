@@ -43,12 +43,3 @@ Hieronder staat hoe je de voorbeeld applicatie pong draait op het scherm.
 
 ## Extra gebruikte libraries 
 - [XPT2046 Touch](https://github.com/PaulStoffregen/XPT2046_Touchscreen) voor Pong
-
-## Extra info
-Gemaakt voor een school opdracht. 
-
-Stefan Budding. 
-
-Laatst bijgewerkt op 29 mei 2024.
-
-https://github.com/TICT-TV1SE2-2324/personal-progress-Steve987321/assets/88980055/80c996d8-8c95-4d11-a25b-3e2ab4ea03e3
