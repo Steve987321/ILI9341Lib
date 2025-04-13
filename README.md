@@ -1,32 +1,31 @@
 ILI9341 Library 
 ===============
 
-Een library voor de ILI9341. Gemaakt voor de Arduino Uno.
+A library for the ILI9341. Made for the Arduino Uno. 
 
-De ILI9341 is een single-chip SOC driver voor de TFT LCD. 
+The ILI9341 is a single-chip SoC driver for TFT LCDs. 
 
 ## Testing 
 
-*Zorg ervoor dat g++ geïnstalleerd is en gebruikt kan worden in je terminal.*
+*Make sure g++ is installed and accessible from your terminal.*
 
 ### Windows 
 
-1. Open de `build/` folder en dubbel klik op `build_test_ILI9341.bat`.
+1. Open the `build/` folder and double-click on `build_test_ILI9341.bat`.
 
-2. Nadat het succesvol is gebuild voer je de binary bestand uit in `test/a.out`.
+2. After a successful build, run the binary file located at `test/a.out`.
 
 ### Mac 
 
-1. `cd` eerst in de `build/` folder en voer `sh build_test_ILI9341.command` uit. 
+1. First `cd` into the `build/` folder and run `sh build_test_ILI9341.command`. 
 
-2. Nadat het succesvol is gebuild voer je de binary bestand uit in `test/a.out`.
+2. After a successful build, run the binary file located at `test/a.out`.
 
-## Bronnen 
-Ik heb gebruik gemaakt van de volgende bronnen: 
+## Sources 
 
-- [Datasheet voor de ILI9341]([ILI9341](https://cdn-shop.adafruit.com/datasheets/ILI9341.pdf))
+- [Datasheet for the ILI9341]([ILI9341](https://cdn-shop.adafruit.com/datasheets/ILI9341.pdf))
 
-- [8x8 Font](https://github.com/dhepper/font8x8) bitmap voor tekenen tekst.
+- [8x8 Font](https://github.com/dhepper/font8x8) bitmap for rendering text.
 
-- [Arduino forums](https://forum.arduino.cc/) voor vragen gerelateerd met de Arduino Uno.
+- [Arduino forums](https://forum.arduino.cc/) for questions related to the Arduino Uno.
 
